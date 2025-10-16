@@ -1,0 +1,13 @@
+Sub Run_Evaluations()
+
+Call Hinges_List
+Call Moment_Rotation
+Call Damage_Index
+
+ActiveWorkbook.Save
+
+Menssage = "Assessed Damages" & vbCrLf
+Menssage = Menssage & "Action Completed"
+MsgBox Menssage
+
+End Sub
